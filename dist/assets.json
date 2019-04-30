@@ -1,0 +1,17 @@
+{
+  "entrypoints": {
+    "main": {
+      "js": [
+        "/scripts/vendors~main-fb2e211b9e828dbb.js",
+        "/scripts/main-c04bee6c04ac206b.js"
+      ],
+      "css": [
+        "/styles/main-c04bee6c04ac206b.css"
+      ]
+    }
+  },
+  "images/bg.jpg": "/images/bg-68cd895e528325c9.jpg",
+  "main.css": "/styles/main-c04bee6c04ac206b.css",
+  "main.js": "/scripts/main-c04bee6c04ac206b.js",
+  "vendors~main.js": "/scripts/vendors~main-fb2e211b9e828dbb.js"
+}

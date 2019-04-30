@@ -1,21 +1,22 @@
 const APP = {
-	NAME                  : 'artaphine',
-	VERSION               : '1.0.1',
-	AUTHOR                : 'Robert Spier',
-	CREATION_DATE         : new Date().getFullYear(),
+	NAME         : 'artaphine',
+	VERSION      : '1.0.1',
+	AUTHOR       : 'Robert Spier',
+	CREATION_DATE: new Date().getFullYear()
 };
 
 class App {
+
 	constructor() {
 		console.log(`${APP.NAME} ${APP.VERSION}, © ${APP.CREATION_DATE} ${APP.AUTHOR}`);
 		this.glitch();
 	}
 
 	glitch() {
-		var imagePath = 'images/bg.jpg';
-		var imgContainerEl = document.getElementById( 'img-container' );
+		const imagePath = 'images/bg.jpg';
+		const imgContainerEl = document.getElementById( 'img-container' );
 
-		var params = {
+		const params = {
 			amount:     this.random(1, 100),
 			iterations: this.random(1, 100),
 			quality:    this.random(1, 100),
