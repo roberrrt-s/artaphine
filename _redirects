@@ -160,6 +160,12 @@
 
 # END PODCASTS NAME
 
+# PODCAST LATEST
+
+/series/latest https://soundcloud.com/artaphine/ignota-artaphine-series-076
+
+# END PODCAST LATEST
+
 # 404 behaviour
 
 * /index.html
