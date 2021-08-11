@@ -48,7 +48,5 @@ fetch("https://spreadsheets.google.com/feeds/list/1N_w4sj2uziwG1_8OQXCsOGYnAdEf0
 				link.appendChild(text);
 			})
 
-			console.log(data)
-
     	}
 	})

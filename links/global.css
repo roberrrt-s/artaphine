@@ -26,10 +26,14 @@ main::after {
 	z-index: -1;
 }
 
-svg {
+#logo {
 	width: 50vw;
 	max-width: 10em;
 	margin: 2em auto;
+}
+
+ul {
+	list-style-type: none;
 }
 
 a {
@@ -43,25 +47,64 @@ a {
 	transition: .1s ease-in-out;
 }
 
-a:hover,
-a:focus,
-a:active {
-	color: black;
-	background: white;
-}
+.st0{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
+.st1{fill:#FFFFFF;}
 
-ul {
+#socials {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 	margin: 0;
 	padding: 0;
 	max-width: 20em;
 	margin: auto;
 }
 
-li {
+#socials li:not(:last-of-type) {
+/*	margin-right: 1rem;
+*/}
+
+#socials a {
+	padding: 0;
+	margin-bottom: 1rem;
+}
+
+#socials a:hover svg,
+#socials a:focus svg,
+#socials a:active svg {
+	transform: scale(1.1);
+}
+
+#socials a:hover .st0,
+#socials a:focus .st0,
+#socials a:active .st0 {
+/*	fill: black;
+*/}
+
+#socials svg {
+	width: 2rem;
+	height: 2rem;
+}
+
+#links a:hover,
+#links a:focus,
+#links a:active {
+	color: black;
+	background: white;
+}
+
+#links {
+	margin: 0;
+	padding: 0;
+	max-width: 20em;
+	margin: auto;
+}
+
+#links li {
 	border: 1px solid white;
 	text-align: center;
 }
 
-li:not(:last-of-type) {
+#links li:not(:last-of-type) {
 	margin-bottom: 1em;
 }
