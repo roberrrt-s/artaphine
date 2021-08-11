@@ -39,6 +39,7 @@ ul {
 a {
 	display: inline-block;
 	padding: 1em;
+	width: calc(100% - 2em);
 	color: white;
 	text-decoration: none;
 	font-family: sans-serif;
@@ -65,6 +66,7 @@ a {
 
 #socials a {
 	padding: 0;
+	width: 100%;
 	margin-bottom: 1rem;
 }
 
