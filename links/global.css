@@ -84,6 +84,7 @@ a {
 #socials svg {
 	width: 2rem;
 	height: 2rem;
+	transition: .1s ease-in-out;
 }
 
 #links a:hover,
