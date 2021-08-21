@@ -1,32 +1,28 @@
 // lol
 
-fetch("https://spreadsheets.google.com/feeds/list/1N_w4sj2uziwG1_8OQXCsOGYnAdEf0grCljdPdd5IJcA/1/public/values?alt=json")
-	.then(res => res.json())
-	.then(json => {
+const spreadsheetId = '1N_w4sj2uziwG1_8OQXCsOGYnAdEf0grCljdPdd5IJcA'
+
+fetch(`https://docs.google.com/spreadsheets/d/${spreadsheetId}/gviz/tq?tqx=out:json`)
+    .then(res => res.text())
+    .then(text => {
+        const json = JSON.parse(text.substr(47).slice(0, -2))
+
+        console.log(json);
+
 		const data = [] /* this array will eventually be populated with the contents of the spreadsheet's rows */
 
-		const rows = json.feed.entry
+		const rows = json.table.rows
 
 		for(const row of rows) {
-			const formattedRow = {}
-
-			for(const key in row) {
-				if(key.startsWith("gsx$")) {
-
-				/* The actual row names from your spreadsheet
-				 * are formatted like "gsx$title".
-				 * Therefore, we need to find keys in this object
-				 * that start with "gsx$", and then strip that
-				 * out to get the actual row name
-				 */
-
-					formattedRow[key.replace("gsx$", "")] = row[key].$t
-
-				}
+			const formattedRow = {
+				url: row.c[1].v,
+				text: row.c[0].v
 			}
 
 			data.push(formattedRow)
+
 		}
+
 
 		if(data) {
 			const list = document.querySelector("#links");
@@ -49,4 +45,6 @@ fetch("https://spreadsheets.google.com/feeds/list/1N_w4sj2uziwG1_8OQXCsOGYnAdEf0
 			})
 
     	}
-	})
+	}).catch(err => {
+		console.log(err)
+	});
