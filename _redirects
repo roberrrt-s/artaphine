@@ -176,6 +176,12 @@
 
 # END PODCAST LATEST
 
+# BEGIN ARTAPHINE RECORDS V/ARTA RELEASES
+
+/records/varta001 https://artaphine.bandcamp.com/album/various-artaphine-001
+
+# END ARTAPHINE RECORDS V/ARTA RELEASES
+
 # 404 behaviour
 
 * /index.html
