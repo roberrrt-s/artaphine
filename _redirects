@@ -82,6 +82,7 @@
 /series/080 https://soundcloud.com/artaphine/dj-plant-texture-artaphine-series-080
 /series/081 https://soundcloud.com/artaphine/clotur-artaphine-series-081
 /series/082 https://soundcloud.com/artaphine/henning-baer-artaphine-series-082
+/series/083 https://soundcloud.com/artaphine/measure-divide-artaphine-series-083
 
 # END PODCASTS NUMBERS
 
@@ -169,12 +170,13 @@
 /series/djplanttexture https://soundcloud.com/artaphine/dj-plant-texture-artaphine-series-080
 /series/clotur https://soundcloud.com/artaphine/clotur-artaphine-series-081
 /series/henning-baer https://soundcloud.com/artaphine/henning-baer-artaphine-series-082
+/series/measure-divide https://soundcloud.com/artaphine/measure-divide-artaphine-series-083
 
 # END PODCASTS NAME
 
 # PODCAST LATEST
 
-/series/latest https://soundcloud.com/artaphine/henning-baer-artaphine-series-082
+/series/latest https://soundcloud.com/artaphine/measure-divide-artaphine-series-083
 
 # END PODCAST LATEST
 
@@ -183,6 +185,12 @@
 /records/varta001 https://artaphine.bandcamp.com/album/various-artaphine-001
 
 # END ARTAPHINE RECORDS V/ARTA RELEASES
+
+# BEGIN ARTAPHINE RECORDS LATEST
+
+/records/latest https://artaphine.bandcamp.com/album/various-artaphine-001
+
+# BEGIN ARTAPHINE RECORDS LATEST
 
 # 404 behaviour
 
