@@ -88,7 +88,7 @@
 /series/086 https://soundcloud.com/artaphine/quelza-artaphine-series-086
 /series/087 https://soundcloud.com/artaphine/conceptual-artaphine-series-087
 /series/088 https://soundcloud.com/artaphine/sorcery-artaphine-series-088
-
+/series/089 https://soundcloud.com/artaphine/insolate-artaphine-series-089
 # END PODCASTS NUMBERS
 
 # BEGIN PODCASTS NAME
@@ -181,12 +181,13 @@
 /series/quelza https://soundcloud.com/artaphine/quelza-artaphine-series-086
 /series/conceptual https://soundcloud.com/artaphine/conceptual-artaphine-series-087
 /series/sorcery https://soundcloud.com/artaphine/sorcery-artaphine-series-088
+/series/insolate https://soundcloud.com/artaphine/insolate-artaphine-series-089
 
 # END PODCASTS NAME
 
 # PODCAST LATEST
 
-/series/latest https://soundcloud.com/artaphine/sorcery-artaphine-series-088
+/series/latest https://soundcloud.com/artaphine/insolate-artaphine-series-089
 
 # END PODCAST LATEST
 
