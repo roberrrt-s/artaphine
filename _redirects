@@ -91,8 +91,10 @@
 /series/089 https://soundcloud.com/artaphine/insolate-artaphine-series-089
 /series/090 https://soundcloud.com/artaphine/rebecca-delle-piane-artaphine-series-090
 /series/091 https://soundcloud.com/artaphine/hollden-artaphine-series-091
-/series/092 https://soundcloud.com/artaphine/tauceti-artaphine-series-092/
+/series/092 https://soundcloud.com/artaphine/tauceti-artaphine-series-092
 /series/093 https://soundcloud.com/artaphine/grafin-artaphine-series-093
+/series/094 https://soundcloud.com/artaphine/perfo-artaphine-series-094
+/series/095 https://soundcloud.com/artaphine/yogg-artaphine-series-095
 
 # END PODCASTS NUMBERS
 
@@ -191,12 +193,14 @@
 /series/hollden https://soundcloud.com/artaphine/hollden-artaphine-series-091
 /series/tauceti https://soundcloud.com/artaphine/tauceti-artaphine-series-092/
 /series/grafin https://soundcloud.com/artaphine/grafin-artaphine-series-093
+/series/perfo https://soundcloud.com/artaphine/perfo-artaphine-series-094
+/series/yogg https://soundcloud.com/artaphine/yogg-artaphine-series-095
 
 # END PODCASTS NAME
 
 # PODCAST LATEST
 
-/series/latest https://soundcloud.com/artaphine/grafin-artaphine-series-093
+/series/latest https://soundcloud.com/artaphine/yogg-artaphine-series-095
 
 # END PODCAST LATEST
 
