@@ -102,6 +102,7 @@
 /series/100 https://soundcloud.com/artaphine/head-front-panel-artaphine-series-100
 /series/101 https://soundcloud.com/artaphine/comrade-winston-artaphine-series-101
 /series/102 https://soundcloud.com/artaphine/blanka-artaphine-series-102
+/series/103 https://soundcloud.com/artaphine/any-mello-artaphine-series-103
 
 # END PODCASTS NUMBERS
 
@@ -209,12 +210,13 @@
 /series/head-front-panel https://soundcloud.com/artaphine/head-front-panel-artaphine-series-100
 /series/comrade-winston-2022 https://soundcloud.com/artaphine/comrade-winston-artaphine-series-101
 /series/blanka https://soundcloud.com/artaphine/blanka-artaphine-series-102
+/series/any-mello https://soundcloud.com/artaphine/any-mello-artaphine-series-103
 
 # END PODCASTS NAME
 
 # PODCAST LATEST
 
-/series/latest https://soundcloud.com/artaphine/blanka-artaphine-series-102
+/series/latest https://soundcloud.com/artaphine/any-mello-artaphine-series-103
 
 # END PODCAST LATEST
 
